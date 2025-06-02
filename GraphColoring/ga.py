@@ -88,7 +88,7 @@ class GeneticAlgorithm:
             self.adapt_mutation(best_fit)
 
             if best_fit == 0:
-                self.log(f"✅ Perfect solution found at generation {gen+1}")
+                self.log(f"Perfect solution found at generation {gen+1}")
                 return best
 
             elite_count = 10
